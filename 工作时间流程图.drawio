@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-02-11T08:22:31.858Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="2Cn2Q-cvE_GJWXBUu6Pz" version="12.6.7" type="github">
+<mxfile host="www.draw.io" modified="2020-02-11T08:45:43.141Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="1pPVkDb5i_KFOv54pwDu" version="12.6.7" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2249" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -73,11 +73,25 @@
         <mxCell id="XydmrX_YFhf04H4YOuTL-25" value="卡时间点&lt;br&gt;判定时有生效的，&lt;br&gt;后续就过了时间点了" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="360" y="350" width="140" height="90" as="geometry"/>
         </mxCell>
+        <mxCell id="XydmrX_YFhf04H4YOuTL-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="XydmrX_YFhf04H4YOuTL-29" target="XydmrX_YFhf04H4YOuTL-33">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
         <mxCell id="XydmrX_YFhf04H4YOuTL-29" value="ivr服务时间&lt;br&gt;客服组服务时间" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="335" y="530" width="120" height="40" as="geometry"/>
         </mxCell>
         <mxCell id="XydmrX_YFhf04H4YOuTL-32" value="&lt;h1&gt;中继号服务时间判定&lt;/h1&gt;&lt;p&gt;也存在卡时间点的问题&lt;/p&gt;" style="text;html=1;strokeColor=#ae4132;fillColor=#fad9d5;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="360" y="10" width="240" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="XydmrX_YFhf04H4YOuTL-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="XydmrX_YFhf04H4YOuTL-33" target="XydmrX_YFhf04H4YOuTL-34">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="395" y="730" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XydmrX_YFhf04H4YOuTL-33" value="ivr 到客服组" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="335" y="610" width="120" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="XydmrX_YFhf04H4YOuTL-34" value="判断客服组的&lt;br&gt;服务时间" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="335" y="670" width="120" height="40" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
